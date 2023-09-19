@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lexus</title>
+    <link href="styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Victor+Mono:wght@600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="navbar ">
+        <nav class="navbar">
+        <ul style="list-style: none; margin-top:0px;" >
+            <li class="navlogo">
+                <img class="logo" src=".lexus-rx-toyota-car-lexus-is-car-logo-removebg-preview.png"><br>
+            </li>
+            <li class="navitem">
+                <a class="linka" href="index.html">Home</a>
+            </li>
+            <li class="navitem">
+                <a class="linka" href="cars.html">Cars</a>
+            </li>
+            <li class="navitem">
+                <a class="linka" href="suv.html">SUVs</a>
+            </li>
+            <li class="navitem">
+                <a class="linka" href="abtus.html">About Us</a>
+            </li>
+            <li class="navitem">
+                <a class="linka active" href="contact.html">Contact Us</a>
+            </li>
+            <li class="navitem">
+                <a class="linka" href="joinus.html">Join Us</a>
+            </li>
+            <li class="navitem">
+                <a class="linka" href="login.html">Log In</a>
+            </li>
+        </ul>
+    </nav>
+    </div>
+    <div class="containerx">
+        <h1>Contact Us</h1>
+        <form class="formx"action="submit_contact_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <div class="form-group">
+                <label for="country">Select Vehicle</label>
+                <select class="form-select" id="country" name="country">
+                    <option>Select Vehicle</option>
+                    <option value="AF">LC</option>
+                    <option value="AX">IS </option>
+                    <option value="AL">ES </option>
+                    <option value="AF">LS</option>
+                    <option value="AX">LX </option>
+                    <option value="AL">GX </option>
+                    <option value="AF">TX</option>
+                    <option value="AX">UX </option>
+                </select>
+                </div>
+
+            <button class="gradient-background buttonx" type="submit">Get Brouche</button>
+        </form>
+    </div>
+</body>
+</html>
+
+    
+</body>
+</html>
